@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var me:UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        me.layer.cornerRadius = 75
+        me.layer.borderColor = UIColor.white.cgColor
+        me.layer.borderWidth = 2
+        me.layer.masksToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

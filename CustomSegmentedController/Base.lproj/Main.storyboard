@@ -29,18 +29,33 @@
                                     <constraint firstAttribute="height" constant="48" id="hog-A5-Mvz"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itsME" translatesAutoresizingMaskIntoConstraints="NO" id="SJK-8u-I1L">
+                                <rect key="frame" x="112" y="258" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="RRa-Vz-adK"/>
+                                    <constraint firstAttribute="width" constant="150" id="lR6-fx-ynp"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.25490196079999999" green="0.68235294120000001" blue="0.81960784310000001" alpha="0.62998383620689657" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="h6f-sR-mCg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1DG-2Q-ee4"/>
                             <constraint firstItem="h6f-sR-mCg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AFP-ss-7iO"/>
                             <constraint firstItem="h6f-sR-mCg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ULa-MN-h57"/>
+                            <constraint firstItem="SJK-8u-I1L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ezZ-jx-Qsi"/>
+                            <constraint firstItem="SJK-8u-I1L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rzq-Sr-dwD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="me" destination="SJK-8u-I1L" id="Xut-p2-mdz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="itsME" width="600" height="600"/>
+    </resources>
 </document>
