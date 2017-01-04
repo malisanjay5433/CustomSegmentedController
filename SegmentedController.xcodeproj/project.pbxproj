@@ -12,16 +12,18 @@
 		3DEA41AD1E1CC8FA00450DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA41AB1E1CC8FA00450DB3 /* Main.storyboard */; };
 		3DEA41AF1E1CC8FA00450DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA41AE1E1CC8FA00450DB3 /* Assets.xcassets */; };
 		3DEA41B21E1CC8FA00450DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA41B01E1CC8FA00450DB3 /* LaunchScreen.storyboard */; };
+		3DEA41BA1E1CC92600450DB3 /* SegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA41B91E1CC92600450DB3 /* SegmentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3DEA41A41E1CC8FA00450DB3 /* CustomSegmentedController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegmentedController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEA41A41E1CC8FA00450DB3 /* SegmentedController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEA41A71E1CC8FA00450DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DEA41A91E1CC8FA00450DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DEA41AC1E1CC8FA00450DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DEA41AE1E1CC8FA00450DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEA41B11E1CC8FA00450DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DEA41B31E1CC8FA00450DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEA41B91E1CC92600450DB3 /* SegmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		3DEA419B1E1CC8FA00450DB3 = {
 			isa = PBXGroup;
 			children = (
-				3DEA41A61E1CC8FA00450DB3 /* CustomSegmentedController */,
+				3DEA41A61E1CC8FA00450DB3 /* SegmentedController */,
 				3DEA41A51E1CC8FA00450DB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +48,12 @@
 		3DEA41A51E1CC8FA00450DB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DEA41A41E1CC8FA00450DB3 /* CustomSegmentedController.app */,
+				3DEA41A41E1CC8FA00450DB3 /* SegmentedController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DEA41A61E1CC8FA00450DB3 /* CustomSegmentedController */ = {
+		3DEA41A61E1CC8FA00450DB3 /* SegmentedController */ = {
 			isa = PBXGroup;
 			children = (
 				3DEA41A71E1CC8FA00450DB3 /* AppDelegate.swift */,
@@ -60,16 +62,18 @@
 				3DEA41AE1E1CC8FA00450DB3 /* Assets.xcassets */,
 				3DEA41B01E1CC8FA00450DB3 /* LaunchScreen.storyboard */,
 				3DEA41B31E1CC8FA00450DB3 /* Info.plist */,
+				3DEA41B91E1CC92600450DB3 /* SegmentController.swift */,
 			);
+			name = SegmentedController;
 			path = CustomSegmentedController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DEA41A31E1CC8FA00450DB3 /* CustomSegmentedController */ = {
+		3DEA41A31E1CC8FA00450DB3 /* SegmentedController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DEA41B61E1CC8FA00450DB3 /* Build configuration list for PBXNativeTarget "CustomSegmentedController" */;
+			buildConfigurationList = 3DEA41B61E1CC8FA00450DB3 /* Build configuration list for PBXNativeTarget "SegmentedController" */;
 			buildPhases = (
 				3DEA41A01E1CC8FA00450DB3 /* Sources */,
 				3DEA41A11E1CC8FA00450DB3 /* Frameworks */,
@@ -79,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomSegmentedController;
+			name = SegmentedController;
 			productName = CustomSegmentedController;
-			productReference = 3DEA41A41E1CC8FA00450DB3 /* CustomSegmentedController.app */;
+			productReference = 3DEA41A41E1CC8FA00450DB3 /* SegmentedController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3DEA419F1E1CC8FA00450DB3 /* Build configuration list for PBXProject "CustomSegmentedController" */;
+			buildConfigurationList = 3DEA419F1E1CC8FA00450DB3 /* Build configuration list for PBXProject "SegmentedController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DEA41A31E1CC8FA00450DB3 /* CustomSegmentedController */,
+				3DEA41A31E1CC8FA00450DB3 /* SegmentedController */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +143,7 @@
 			files = (
 				3DEA41AA1E1CC8FA00450DB3 /* ViewController.swift in Sources */,
 				3DEA41A81E1CC8FA00450DB3 /* AppDelegate.swift in Sources */,
+				3DEA41BA1E1CC92600450DB3 /* SegmentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +268,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QY8PV2R65U;
 				INFOPLIST_FILE = CustomSegmentedController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.CustomSegmentedController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.SegmentedController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,8 +282,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QY8PV2R65U;
 				INFOPLIST_FILE = CustomSegmentedController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.CustomSegmentedController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.SegmentedController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +293,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DEA419F1E1CC8FA00450DB3 /* Build configuration list for PBXProject "CustomSegmentedController" */ = {
+		3DEA419F1E1CC8FA00450DB3 /* Build configuration list for PBXProject "SegmentedController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DEA41B41E1CC8FA00450DB3 /* Debug */,
@@ -295,13 +302,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DEA41B61E1CC8FA00450DB3 /* Build configuration list for PBXNativeTarget "CustomSegmentedController" */ = {
+		3DEA41B61E1CC8FA00450DB3 /* Build configuration list for PBXNativeTarget "SegmentedController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DEA41B71E1CC8FA00450DB3 /* Debug */,
 				3DEA41B81E1CC8FA00450DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
